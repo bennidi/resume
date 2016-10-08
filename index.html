@@ -262,6 +262,38 @@
         <div class="col-md-6">
             <div class="panel panel-default">
                 <div class="panel-heading text-center text-uppercase">
+                    <h4>CTO</h4>
+                    <div class="label label-warning">coffeescript</div>
+                    <div class="label label-warning">ES7</div>
+                    <div class="label label-warning">reactjs</div>
+                    <div class="label label-warning">PouchDB</div>
+                    <div class="label label-warning">koa</div>
+                </div>
+                <div class="panel-body">
+<pre><code class="coffeescript">
+# Mobile/Web app built on innovative stack using
+# TFRP (reactjs+eventemitter) in frontend and
+# Node.js, ES7, koa, CouchDB in backend.
+mein_schulplan =
+position : "CTO"
+period : "06-2016 - ongoing"
+tasks : [
+    "Design and prototyping of entire application stack"
+    "Build infrastructure for unit, integration and e2e tests"
+]
+technologies : [
+    "Node.js", "ES7", "coffeescript", "reactjs",
+    "PouchDB", "CouchDB", "koa", "mocha", "karma",
+    "selenium", "lodash", "LESS"
+]
+</code></pre>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-heading text-center text-uppercase">
                     <h4>Senior Software Engineer</h4>
                     <div class="label label-warning">Scala</div>
                     <div class="label label-warning">MongoDB</div>
@@ -272,6 +304,8 @@
                 </div>
                 <div class="panel-body">
 <pre><code class="scala">
+// Mobile app with complex domain model exposed
+// as autonomous, auto-scaling data repositories (REST).
 val okotta = Map(
     "position" -> "Senior Software Engineer",
     "company" -> "Okotta Germany GmbH",
@@ -290,6 +324,9 @@ val okotta = Map(
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="row">
 
         <div class="col-md-6">
             <a href="#" name="proj_si"></a>
@@ -303,6 +340,8 @@ val okotta = Map(
                 </div>
                 <div class="panel-body">
 <pre><code class="groovy">
+/** Web-app running on GAE with BigTable and Memcache
+ * Angular frontend connects via Ajax to data backend. */
 def Small_Improvements = [
     position : 'Senior Software Engineer',
     atCompany : 'Small Improvements',
@@ -320,9 +359,7 @@ def Small_Improvements = [
                 </div>
             </div>
         </div>
-    </div>
 
-    <div class="row">
         <div class="col-md-6">
             <div class="panel panel-default">
                 <div class="panel-heading text-center text-uppercase">
@@ -334,13 +371,11 @@ def Small_Improvements = [
                 </div>
                 <div class="panel-body">
 <pre><code class="scala">
-case class Company( name:String, purpose:Option[String) = None())
-case class Project( position:String, at:Company, period:DateTime,
-                    tasks:Array[String], technologies:Array[String])
-
+// Automated provisioning of virtualized data center
+// components onto high-performance physical hardware
+case class Project( period:DateTime, tasks:Array[String],
+                    technologies:Array[String])
 val profitbricks = Project(
-    position = "Senior Software Engineer J2EE"
-    at = Company(name = "ProfitBricks GmbH")
     period = "03-2013" to "09-2013"
     tasks = Array(
         "Rewrite test infrastructure with internal DSL and H2",
@@ -349,13 +384,15 @@ val profitbricks = Project(
         "Code reviews and refactorings")
     technologies = Array(
         "Java 7", "EJB 3.1", "EclipseLink (JPA 2.1)",
-        "Glassfish", "jUnit", "Maven", "Git",
-        "cglib", "OSGI", "Postgres",
-        "VisualVM", "H2", "Jenkins"))
+        "Glassfish", "jUnit", "Maven", "Git", "cglib",
+        "OSGI", "Postgres", "VisualVM", "H2", "Jenkins"))
 </code></pre>
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="row">
         <div class="col-md-6">
             <a href="#" name="proj_fs"></a>
             <div class="panel panel-default">
@@ -369,8 +406,8 @@ val profitbricks = Project(
                 </div>
                 <div class="panel-body">
 <pre><code class="clojure">
-; Online platform offering comparison services around insurances
-; and a social graph for customers to form trust networks.
+;; Online platform offering comparison services around insurances
+;; and a social graph for customers to form trust networks.
 (def friendsurance {
     :position "Software engineer J2EE"
     :period (interval (date-time 2012 02) (date-time 2012 12))
@@ -379,19 +416,17 @@ val profitbricks = Project(
         "Redesign of the persistence abstraction layer"
         "Fully historized social graph based on immutable data"
         "Caching layer with synchronization across machines"
-        "Built selenium test infrastructure on grid server"
-    ]
+        "Built selenium test infrastructure on grid server"]
     :technologies [
-        "Java 7", "EJB 3.1", "Hibernate (JPA 2.1)",
-        "Spring 3", "Tomcat 7", "Glassfish",
-        "jUnit", "Maven", "git", "JSF 2", "Selenium",
-        "Postgres", "jQuery", "Servlet"]})
+    "Java 7", "EJB 3.1", "Hibernate (JPA 2.1)",
+    "Spring 3", "Tomcat 7", "Glassfish", "jUnit",
+    "Maven", "git", "JSF 2", "Selenium",
+    "Postgres", "jQuery", "Servlet"]})
 </code></pre>
-                    </div>
                 </div>
             </div>
         </div>
-
+    </div>
 
     <div class="row">
         <div class="col-md-12">
