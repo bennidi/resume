@@ -4,7 +4,7 @@ ghPages = require 'gulp-gh-pages'
 
 publish = () ->
 	gulp.src './html/**/*'
-		.pipe ghPages()
+		.pipe ghPages force:true
 publish.description = "Publishes CV to gh-pages "
 
 # Register tasks with gulp
